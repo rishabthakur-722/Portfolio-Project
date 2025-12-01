@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADITYA PORTFOLIO</title> 
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+  <div class="main-container">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+      <!-- PROFILE SECTION -->
+      <div class="profile">
+        <!-- ✅ Use relative path, not C:\ path -->
+        <img src="./image/aditya.png" alt="Aditya Profile">
+        <h2>Aditya Kumar Thakur</h2>
+        <p>Software Engineer</p>
+      </div>
+
+      <!-- CONTACT SECTION -->
+      <div class="contact">
+        <div class="Email">
+          <h3 class="label">Email</h3>
+          <a href="mailto:at249777@gmail.com" class="value">at249777@gmail.com</a>
+        </div>
+
+        <div class="Phone">
+          <h3 class="label">Phone No</h3>
+          <a href="tel:7217664480" class="value">7217664480</a>
+        </div>
+
+        <div class="Location">
+          <h3 class="label">Location</h3>
+          <p class="value">Bardarpur, New Delhi</p>
+        </div>
+      </div>
+
+      <!-- SOCIAL MEDIA -->
+      <div class="social">
+        <a href="https://github.com/rishabthakur-722" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="GitHub">
+        </a>
+        <a href="https://linkedin.com" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="LinkedIn">
+        </a>
+        <a href="https://instagram.com" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Instagram">
+        </a>
+      </div>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+      <!-- NAVIGATION -->
+      <div id="navigation">
+        <nav>
+          <a href="#about" class="active">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#portfolio">Portfolio</a>
+        </nav>
+      </div>
+
+      <!-- ABOUT ME -->
+      <section id="about">
+        <h2 class="heading">About Me</h2>
+        <div class="line"></div>
+        <p class="content">
+          Aspiring Software engineer skilled in Java, Python, and C, with a strong foundation in data structures and algorithms. 
+          Proven ability to solve complex problems and create efficient, scalable solutions. 
+          Highly motivated to apply technical expertise in dynamic, team-driven environments.
+        </p>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills">
+        <h2 class="heading">Skills</h2>
+        <div class="line"></div>
+
+        <div class="grid-container">
+          <div class="skill-item">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png" alt="HTML5">
+            <p>HTML5</p>
+          </div>
+
+          <div class="skill-item">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="CSS3">
+            <p>CSS3</p>
+          </div>
+
+          <div class="skill-item">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript">
+            <p>JavaScript</p>
+          </div>
+
+          <div class="skill-item">
+            <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java">
+            <p>Java</p>
+          </div>
+
+          <div class="skill-item">
+            <img src="https://cdn-icons-png.flaticon.com/512/919/919851.png" alt="React.js">
+            <p>React.js</p>
+          </div>
+
+          <div class="skill-item">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png" alt="Bootstrap">
+            <p>Bootstrap</p>
+          </div>
+
+          <div class="skill-item">
+            <img src="https://cdn-icons-png.flaticon.com/512/2772/2772128.png" alt="SQL">
+            <p>SQL</p>
+          </div>
+
+          <div class="skill-item">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="Tailwind">
+            <p>Tailwind CSS</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section id="education">
+        <h2 class="heading">Education</h2>
+        <div class="line"></div>
+
+        <div class="education-list">
+          <article>
+            <div class="year">2023–2027</div>
+            <h3>Bachelor of Technology – CSE</h3>
+            <p>Parul University, Vadodara</p>
+            <p>Focused on Software Development, DSA, and Web Tech.</p>
+          </article>
+
+          <article>
+            <div class="year">2020–2022</div>
+            <h3>Intermediate – Science</h3>
+            <p>Sarvodaya Bal Vidyalaya, New Delhi</p>
+            <p>Studied Physics, Chemistry, Maths.</p>
+          </article>
+
+          <article>
+            <div class="year">2018–2020</div>
+            <h3>Matriculation</h3>
+            <p>Govt Boys Sr. Sec. School, New Delhi</p>
+            <p>Built strong basics and discipline.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- PORTFOLIO -->
+      <section id="portfolio">
+        <h2 class="heading">Portfolio</h2>
+        <div class="line"></div>
+
+        <div class="project-container">
+
+          <!-- TODO PROJECT -->
+          <article class="project">
+            <img src="https://images.unsplash.com/photo-1557683316-973673baf926?w=600" alt="Todo App">
+            <div class="card">
+              <h3>To-Do List App</h3>
+              <p>Task manager UI with add, delete and completion tracking.</p>
+              <div class="tech">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <a href="#" class="demo-btn">Live Demo</a>
+            </div>
+          </article>
+
+          <!-- WEATHER PROJECT -->
+          <article class="project">
+            <img src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600" alt="Weather App">
+            <div class="card">
+              <h3>Weather Forecast App</h3>
+              <p>Shows real-time temperature, humidity & weekly forecast.</p>
+              <div class="tech">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <a href="#" class="demo-btn">Live Demo</a>
+            </div>
+          </article>
+
+          <!-- NETFLIX CLONE -->
+          <article class="project">
+            <img src="https://images.unsplash.com/photo-1601944179066-29786cb9d32a?w=600" alt="Netflix UI">
+            <div class="card">
+              <h3>Netflix Clone</h3>
+              <p>Streaming homepage UI with banners and movie rows.</p>
+              <div class="tech">
+                <span>HTML</span><span>CSS</span>
+              </div>
+              <a href="#" class="demo-btn">Live Demo</a>
+            </div>
+          </article>
+
+          <!-- LOVE CALCULATOR -->
+          <article class="project">
+            <img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=600" alt="Love Calculator">
+            <div class="card">
+              <h3>Love Calculator</h3>
+              <p>Themed React UI for checking name-based compatibility.</p>
+              <div class="tech">
+                <span>HTML</span><span>CSS</span><span>Bootstrap</span><span>React</span>
+              </div>
+              <a href="#" class="demo-btn">Live Demo</a>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+    </main>
+
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
